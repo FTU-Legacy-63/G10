@@ -168,7 +168,7 @@ User Action: Allocate remaining room to the next applicant, adjust reasoning
 
 1. Spreadsheet / notebook first to prove the range and classification logic fast (owner: Credit Lead). 
 
-2. Code-based static web (GitHub Pages, K62 format) for the interactive loop (owner: Tech Lead). 
+2. Code-based static web for the interactive loop (owner: Tech Lead). 
 
 3. A logic file documents the defensible ranges so finance and code share one specification. 
 
