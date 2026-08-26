@@ -13,10 +13,10 @@
 - DTI = existing obligations / income - used as a supporting warning signal
 | DTI | Classification | Treatment |
 |---|---|---|
-| ≤ 35% | Low / acceptable burden | No adjustment |
-| > 35% – 43% | Moderate warning | Warning flag, no limit reduction |
-| > 43% – 50% | High burden | −10% credit limit |
-| > 50% | Very high burden | Reject |
+| ≤35% | Low / acceptable burden | Không điều chỉnh |
+| >35% – 43% | Moderate warning | Warning flag, không giảm limit |
+| >43% – 50% | High burden | −10% credit limit |
+| >50% | Very high burden | Reject |
 
 4. **Process – Determine affordability band**
 
