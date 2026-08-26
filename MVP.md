@@ -4,27 +4,27 @@
 
 - Income, living expenses, existing debt obligations, number of dependents, job type/employment stability, and requested loan amount
 
-1. **Process – Calculate Net Disposable Income (NDI)**
+2. **Process – Calculate Net Disposable Income (NDI)**
 
 - Net disposable income = Income − Living expenses − Existing obligations
 
-1. **Process – Calculate DTI**
+3. **Process – Calculate DTI**
 
 - DTI = existing obligations / income - used as a supporting warning signal
 
-1. **Process – Determine affordability band**
+4. **Process – Determine affordability band**
 
 - Affordability band = 40 - 45% \* NDI
 
-1. **Process - Monthly installment**
+5. **Process - Monthly installment**
 
 - Loan amount/loan tenor
 
-1. **Classify**
+6. **Classify**
 
 - Compare the requested affordability band with the monthly installment
 
-1. **Output - Decision -> Consequence card**
+7. **Output - Decision -> Consequence card**
 
 \- **Classification:** Requested loan is within/below/above the band
 
