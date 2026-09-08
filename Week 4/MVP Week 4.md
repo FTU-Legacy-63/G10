@@ -44,6 +44,7 @@ Fields marked (display-only) are shown to the player for context but do not ente
   ## **4.1.**         **Step 1 – Net Disposable Income**
 
 * NDI \= Income − Living costs − Existing obligations
+* Burden \= (Existing debts + Living cost) / Income
 
   ## **4.2.**         **Step 2 – Base Monthly Capacity**
 
