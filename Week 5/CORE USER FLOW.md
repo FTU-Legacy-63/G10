@@ -8,7 +8,7 @@
 
 ### **Core features** 
 
-### ***Dossier screen.*** Shows applicant profile (name, age, occupation \+ tenure, dependents), raw financials (income, living expenses, existing debt), the loan request (amount, tenor, collateral type), and the pre-computed metrics NDI, DTI, Burden as bare numbers with no verdict attached. Everything that represents a conclusion (band, tier, factors, correct classification) stays hidden. INPUT\_DICTIONARY and MVP Week 4.md 
+* **Dossier screen.** Shows applicant profile (name, age, occupation \+ tenure, dependents), raw financials (income, living expenses, existing debt), the loan request (amount, tenor, collateral type), and the pre-computed metrics NDI, DTI, Burden as bare numbers with no verdict attached. Everything that represents a conclusion (band, tier, factors, correct classification) stays hidden. INPUT\_DICTIONARY and MVP Week 4.md 
 
 * **Decision input.** Three actions: Approve (grant at requested amount), Reduce limit (grant at a player-entered amount), Reject (grant nothing).   
 * **Capacity engine.** The approved Rulebook pipeline: NDI, base capacity at 42.5% midpoint, Employment/Age/Dependents factors, complexity band, then DTI/Burden gates in fixed order, then classification. Single source of truth: Logic Specification.md.  
