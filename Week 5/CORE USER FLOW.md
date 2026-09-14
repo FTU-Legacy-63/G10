@@ -2,7 +2,7 @@
 
 ## **1\. User goal** 
 
-## After reading a simulated KHCN dossier, the player (a Year 3-4 Finance & Banking student) decides whether to approve at the requested amount, approve at a reduced amount, or reject a loan, under a limited credit room. The player then receives a Decision-Consequence Card showing whether the decision fell inside the defensible affordability band, plus the reasoning.
+#After reading a simulated KHCN dossier, the player (a Year 3-4 Finance & Banking student) decides whether to approve at the requested amount, approve at a reduced amount, or reject a loan, under a limited credit room. The player then receives a Decision-Consequence Card showing whether the decision fell inside the defensible affordability band, plus the reasoning.
 
 ## **2\. Feature map (linked to the 1C MVP)**
 
