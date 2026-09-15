@@ -36,7 +36,7 @@ Practicing the core credit-officer decision: "For this customer, should I lend, 
 
 Kiểu là: Không có công cụ luyện tập nội địa. Các simulator hiện tại hoặc là công cụ chấm điểm tín dụng tiêu dùng Mỹ (Credit Karma, Capital One, Money Fit), hoặc là một simulation doanh nghiệp bằng tiếng Anh có trả phí (Finsimco). Không cái nào bằng tiếng Việt, không cái nào nhắm vào sinh viên, không cái nào dùng hồ sơ/TSĐB/logic DSCR của Việt Nam. 
 
-# 5. What visible output has each member produced? 
+**5. What visible output has each member produced?** 
 
 **Diệp Anh (Product Lead):** Project Leader/ Game concept: Owns game concept and scoring mechanics. Output: Game Design Doc / Rulebook covering the core loop (room allocation → read dossier → analyze → decide → score & explain), room mechanics (total room per round, number of dossiers, "cannot approve all" constraint), and the 5-option Decision Matrix (Approve / Reject / Reduce limit / Require collateral / Add conditions) with consequences for each. Scoring Spec defining how the three end-of-round criteria (decision accuracy, portfolio risk, room efficiency) combine into a final score with weights, plus range-based scoring (not binary right/wrong) and the debrief screen. Scope definition (target / fallback / out-of-scope, with KHCN as core); and the README + Project Proposal + Solution Structure linking W1–W7 evidence, stating output vs desired outcome, the validate-first pivot, and the competitor scan. 
 
@@ -52,7 +52,7 @@ schema (age, occupation, income, employment type, marital status, dependents, he
 
 → Action → Limit pattern, and the end-of-round debrief; input and error clarity (labels, VND units, validation messages, plus happy / alternative / error paths); and the visual identity ("The Credit Desk", design tokens, red-flag/alert icons). Must defend: which inputs are mandatory, which errors are handled, which screen produces the main output, and where each screen connects to the logic. 
 
-# **6. Which decision did the team revise after feedback or diagnosis?** 
+**6. Which decision did the team revise after feedback or diagnosis?** 
 
 - **From solution-first to problem-first.** The team initially planned to build the appraisal game immediately (feature-first). After diagnosis, it stopped feature design and reframed W1 as validating whether the problem is real and whose it is. 
 
@@ -60,7 +60,7 @@ schema (age, occupation, income, employment type, marital status, dependents, he
 
 - **De-scoped the build.** From one full track: individual, both with complete FS analysis) to: individual track as the polished core, where players interpret pre-computed metrics rather than compute them. 
 
-# **7. Output vs Desired outcome** 
+**7. Output vs Desired outcome** 
 
 - **Desired outcome** (user's real-world goal): _the learner becomes confident and competent enough to reason through a credit decision_ , closing the theory ↔ judgment gap, ready for an internship/job. 
 
