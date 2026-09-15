@@ -1,4 +1,4 @@
-### **INPUT DICTIONARY**
+### **INPUT DICTIONARY** (Owner: Nguyen Ngoc Minh Ha)
 
 * Currency: VND, monthly unless stated.
 
