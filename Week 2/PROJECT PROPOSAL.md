@@ -17,7 +17,7 @@ Year 3-4 Finance and Banking students at FTU who are preparing for credit or ris
 
 ## **3\. Desired User Outcome**
 
-## The learner becomes confident and competent enough to reason through a credit decision and defend it, closing the theory-to-judgment gap before an internship or job
+The learner becomes confident and competent enough to reason through a credit decision and defend it, closing the theory-to-judgment gap before an internship or job
 
 This is the real-world goal. It is **not** the same as the product output. Conflating the two is a graded risk in this course.
 
