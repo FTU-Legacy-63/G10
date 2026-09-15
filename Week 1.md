@@ -1,6 +1,6 @@
 # **WEEK 1** 
 
-# **1. Who is the target user?** 
+**1. Who is the target user?** 
 
 Finance & Banking students (and equivalent majors) who are aiming for credit/risk roles but have zero hands-on appraisal experience. 
 
