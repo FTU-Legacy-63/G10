@@ -84,9 +84,9 @@ User Action: Allocate remaining room to the next applicant, adjust reasoning
 
 | **Owner** | **Course role (output)** | **Visible Week 2 output**                                                                                            | **Consumer / dependency** |
 | --------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| Diep Anh  | Product / Output owner   | PROJECT_PROPOSAL & SOLUTION_PROPOSAL: main-output definition, desired-outcome vs output statement, product statement | logi                  |
+| Diep Anh  | Product / Output owner   | PROJECT_PROPOSAL & SOLUTION_PROPOSAL: main-output definition, desired-outcome vs output statement, product statement |                       |
 | ---       | ---                      | ---                                                                                                                  | ---                       |
-| Ha        | Input owner              | Dossier field schema + 2-3 sample case seeds with placeholder red flags                                              |                           |
+| Ha        | Input owner              | Dossier field schema + 10  sample case seeds with placeholder red flags                                              |                           |
 | ---       | ---                      | ---                                                                                                                  | ---                       |
 | Linh      | Logic owner              | Process table + first-pass range/classification rule sketch (5 Cs -> decision band)                                  |output, testing            |
 | ---       | ---                      | ---                                                                                                                  | ---                       |
