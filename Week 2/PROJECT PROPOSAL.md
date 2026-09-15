@@ -1,4 +1,4 @@
-## **PROJECT PROPOSAL**
+## **PROJECT PROPOSAL** (Owner: Doan Diep Anh)
 
 ## **Problem Direction**
 Year 3-4 Finance and Banking students at FTU who are preparing for credit or risk roles have theoretical knowledge of credit appraisal but no hands-on practice making a lend / no-lend call. Real lending mistakes cost real money, so beginners cannot learn by trial and error on the job, and no local practice tool exists (US tools are consumer credit-score apps, the closest simulation, Finsimco, is paid, English-only, and corporate-focused)
