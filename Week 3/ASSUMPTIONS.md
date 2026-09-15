@@ -1,4 +1,4 @@
-### **ASSUMPTIONS**
+### **ASSUMPTIONS** (Owner: Lai Ngoc Linh)
 
 1. **Capacity rule**. Assumption: repayment capacity is a multiple of monthly\_disposable\_income; grant is acceptable when new\_loan\_monthly\_payment stays within a set share of disposable income. Disclosure: kept as a RANGE, shown in the explanation screen, locked only in W4.  
 2. **DTI ceiling**. Assumption: total DTI above a team-set band signals high burden. Reason: standard consumer guardrail. Risk: no cited VN regulatory basis yet, so presenting it as a rule is false authority.   
