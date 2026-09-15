@@ -1,4 +1,4 @@
-### **SAMPLE INPUT OUTPUT**
+### **SAMPLE INPUT OUTPUT** (Owner: Nguyen Ngoc Minh Ha)
 
 Dossier (simulated): applicant age 42, occupation\_type commission\_freelance (independent real estate broker, 9 years), monthly\_gross\_income 45m (documented range 25m–65m), monthly\_living\_expenses 15m, existing\_monthly\_debt 5m (car loan), dependents 2, cic\_status group2\_recent\_late, marital\_status Married, requested\_amount 400m, requested\_term 48 months, loan\_purpose business\_expansion (slowing sub-market), collateral apartment valued 800m.
 
