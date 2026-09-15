@@ -50,5 +50,5 @@ This is a scenario-decision loop, **not** a question-answer quiz. The meta-loop 
 
 **Feasibility**
 
-- Route is realistic for 7 weeks: pre-computed metrics remove the need to build a financial-statement engine; static web on GitHub Pages matches the K62 format the team already knows.
+- Route is realistic for 7 weeks: pre-computed metrics remove the need to build a financial-statement engine
 - Fallback route protects the core output if risk materializes (see SOLUTION_STRUCTURE.md).
