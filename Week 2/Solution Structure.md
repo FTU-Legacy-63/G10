@@ -1,4 +1,4 @@
-### **SOLUTION STRUCTURE**
+### **SOLUTION STRUCTURE** (Owner: Doan Diep Anh)
 
 ## **1\. Solution Chain (User -> Input -> Process -> Output -> User Action)**
 
