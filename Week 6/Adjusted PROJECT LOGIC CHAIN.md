@@ -38,8 +38,6 @@ The core defense discipline: no output makes a stronger claim than its logic can
 
 ## 4. Approved Expected Result - Predict Before Running (Golden case: KHCN-03, Trinh Thi Hanh, 44)
 
-Written before executing the build. This is the reference that makes later testing checkable.
-
 - **Sample input.** Furniture-shop owner. Monthly turnover 270M; costs: stock 180M, rent 24M, wages 24M (3 x 8M), other 12M. Requests 280M / 72mo, unsecured, no pledge. Bank system note installment: 7,110,200 VND. CIC on Check: two active loans, 10M + 5M per month.
 - **Expected reasoning.**
   - Income = 270 - 180 - 24 - 24 - 12 = 30,000,000 (turnover is not income).
