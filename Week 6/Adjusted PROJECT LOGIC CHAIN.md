@@ -1,64 +1,66 @@
-**PROJECT LOGIC CHAIN (Owner: Doan Diep Anh)**
+# PROJECT_LOGIC_CHAIN.md
 
-**Framing chain (Problem to Product to User task)**
+**The Credit Desk - Project Logic Chain (Week 4, Part A)**
+Owner: Luong (Integration and Checkpoint Owner)
+Source of truth: `Adjusted_CREDIT_APPRAISAL_RULEBOOK.md`, `OFFICIAL_MVP_(1C-CAPACITY).md`
+Scope: 1C MVP, Capacity only (DTI). Character, Capital, Collateral and Conditions are out of scope.
 
-**Problem**: Year 3-4 FTU Finance and Banking students preparing for credit or risk roles have appraisal theory but no hands-on practice making a lend / no-lend call. Real mistakes cost real money, so they cannot learn by trial and error on the job, and no local, free, individual-credit practice tool exists.
+## 1. Inherited Chain: Problem -> Product -> User Task
 
-**Product**: The Credit Desk, a browser-based simulation where the player acts as a bank credit officer, reads individual (KHCN) dossiers under a limited credit room, decides whether and how much to lend, and receives consequence-based feedback.
+- **Problem.** Year 3-4 FTU Finance and Banking students have credit-appraisal theory but no hands-on practice making a lend / no-lend call. No local, affordable practice tool exists.
+- **Product.** The Credit Desk: a browser-based credit-appraisal simulation. The player acts as a bank credit officer, reads a KHCN dossier under a limited credit room, and decides whether and how much to lend.
+- **User task.** For one applicant, locate the figures that drive repayment capacity, compute DTI, and classify the request as Approve, Reduce limit, or Reject.
+- **Desired outcome (real-world goal, NOT the product output).** The learner can reason through and defend a capacity decision before an internship. The product output is the Decision-Consequence Card, not the learner's competence. Conflating the two is a graded risk.
 
-**User task**: For each applicant, judge income reliability and repayment capacity, then convert that judgment into a defensible decision (Approve / Reduce limit / Reject) under a fixed credit room.
+## 2. Core Logic Chain (Input/State -> Reasoning -> Result -> Interpretation -> Limitation)
 
-Why the chain starts here: Every logic choice below exists to build repayment judgment, not arithmetic. The player interprets a pre-computed installment and judges income reliability; the system does the annuity math.
+One path, fixed order. Every stage maps to a Rulebook section.
 
-1. **Operating logic chain (one path: Input to Reasoning to Result to Interpretation to Limitation)**
+| Stage | What happens | Rulebook ref |
+| :---- | :---- | :---- |
+| Input / state | Read three driver figures: Income (denominator), Existing obligations = sum of CIC-revealed active-loan installments (part of numerator), Estimated Monthly Installment = pre-computed PMT (part of numerator). Context-only fields: occupation, age, loan type, CIC debt-group label, collateral, purpose. | Definitions; MVP S3 |
+| Reasoning | (a) Loan Type -> Product Parameters (tenor cap, max age, rate). (b) Adjusted tenor = min(requested, product cap, (70 - age) x 12). (c) PMT = P x r / [1 - (1+r)^-n]. (d) DTI = (Existing obligations + PMT) / Income. (e) Compare DTI to the 70% and 80% lines. | Rulebook S2, S4 |
+| Result | DTI value + band + decision. On Reduce limit: Max installment = 70% x Income - Existing obligations, converted to Max loan via Present Value. | Rulebook S3 |
+| Interpretation | Decision-Consequence Card: Classification + Consequence + Explanation, mapped back to Capacity only. | Rulebook S5; MVP S5 |
+| Limitation | Single-C (Capacity/DTI) model; thresholds team-defined; flat 18% rate is an MVP assumption; output is Classification, not Recommendation; only 3 of 5 decisions modeled. | Rulebook S5, S6; MVP S7-8 |
 
-**Input**: A KHCN dossier (income, occupation and tenure, existing obligations, age, loan type, requested amount, tenor, CIC and collateral as display-only) plus the remaining credit room.
+## 3. Logic-Type Audit (claim strength per output)
 
-**Reasoning**: The system reduces Capacity to a single metric, Adjusted DTI, computed in a fixed order (see Part 3). Loan type selects the product parameter row; age and product caps set the tenor; the amortization formula sets the installment; income verification discounts raw income; the two combine into Adjusted DTI.
+The core defense discipline: no output makes a stronger claim than its logic can support.
 
-**Result**: A classification against fixed lines \- Adjusted DTI at or below 70 percent is Approve, above 70 up to 80 percent is Reduce limit, above 80 percent is Reject. On the Reduce path the system also returns the maximum approvable loan.
+| Output | Logic type | Claim boundary |
+| :---- | :---- | :---- |
+| Estimated Monthly Installment | Calculation | A numeric result under the stated rate and adjusted tenor. Precise only given those assumptions. |
+| DTI value | Calculation | A ratio under the stated income and obligation definitions. Not a risk score. |
+| DTI band (<=70 / 70-80 / >80) | Classification | A category against team-defined thresholds. Sourced from finance-expert feedback; exact cut lines marked as Assumption. Not a guaranteed industry standard. |
+| Decision (Approve / Reduce / Reject) | Classification, NOT Recommendation | States whether the request falls inside or outside the DTI lines. Must not use advisory wording such as "you should lend." |
+| Max approvable loan (Reduce path) | Calculation (PV, inverse of PMT) | The amount that brings DTI to exactly 70%. A computed ceiling, not a recommended loan size. |
+| Consequence / Explanation (Card) | Explanation | Interprets the classification against Capacity only. Not financial advice. |
 
-**Interpretation (Consequence)**: The Decision-Consequence Card states what the chosen decision does to this applicant (for example, approving at the ceiling leaves almost no debt-service buffer), tied back to Capacity.
+## 4. Approved Expected Result - Predict Before Running (Golden case: KHCN-03, Trinh Thi Hanh, 44)
 
-**Limitation (Claim boundary)**: The output is a Classification, not a Recommendation. It states only whether the request falls inside or outside the DTI lines under stated assumptions. It never says "you should borrow." Character, Capital, Collateral and Conditions are out of scope in this MVP.
+Written before executing the build. This is the reference that makes later testing checkable.
 
-2. **Reasoning in full** 
+- **Sample input.** Furniture-shop owner. Monthly turnover 270M; costs: stock 180M, rent 24M, wages 24M (3 x 8M), other 12M. Requests 280M / 72mo, unsecured, no pledge. Bank system note installment: 7,110,200 VND. CIC on Check: two active loans, 10M + 5M per month.
+- **Expected reasoning.**
+  - Income = 270 - 180 - 24 - 24 - 12 = 30,000,000 (turnover is not income).
+  - Existing obligations = 10,000,000 + 5,000,000 = 15,000,000 (second loan undeclared).
+  - Unsecured -> r = 1.5%/mo; Adjusted tenor = min(72, 60, 312) = 60mo.
+  - PMT = 280,000,000 x 0.015 / [1 - 1.015^-60] = 7,110,200.
+  - DTI = (15,000,000 + 7,110,200) / 30,000,000 = 73.7%.
+- **Expected result.** 73.7% is in the 70-80% band -> **Reduce limit**. Max installment = 0.70 x 30,000,000 - 15,000,000 = 6,000,000 -> Max loan = 6,000,000 x [1 - 1.015^-60] / 0.015 ≈ **236,282,000 VND** over 60 months.
+- **Explanation.** Counted income is the 30M net of costs, not turnover. An undeclared second loan lifts obligations to 15M, pushing total debt service to ~74% of income. The defensible offer is ~236M, not the full 280M.
+- **Claim audit.** This output is Classification (band + decision) plus supporting Calculation (DTI, PV limit). It is not a Recommendation. No claim beyond Capacity is made.
 
-Step 1, Product parameters: From loan type, look up tenor cap, max age and rate. Unsecured: cap 60 months, rate 18 percent per year. Secured: cap 360 months, rate 11 percent per year. Max age at maturity 70 for both. Loan type never moves the 70/80 decision lines; it only feeds the installment.
+## 5. Claim Boundary (summary)
 
-Step 2, Adjusted tenor: minimum of requested tenor, product cap, and (70 minus current age) times 12 months.
+The product classifies and explains one Capacity dimension (DTI) for one applicant. It does not recommend a lending action, and it does not evaluate Character, Capital, Collateral or Conditions. Thresholds are disclosed as sourced ranges with the exact cut lines marked as assumptions.
 
-Step 3, New loan monthly installment (PMT): P times r divided by \[1 minus (1+r) to the power minus n\], where P is the requested amount, r is the monthly rate (annual divided by 12), and n is the adjusted tenor. This is the real amortization schedule, not a straight-line approximation.
+## 6. Traceability (integration hook)
 
-Step 4, Adjusted income: raw income times a verification percentage. Verified income (payslip, employer certification, or bank statements showing regular deposits) counts at 100 percent. Cash-based or unverifiable income counts at 30 percent (team uses 30 within a sourced 30-40 percent range).
-
-Step 5, Adjusted DTI: (existing obligations plus new installment) divided by adjusted income. Existing obligations use the CIC-verified figure, which can exceed the self-declared figure.
-
-Step 6, Classify: at or below 70 percent Approve; above 70 up to 80 percent Reduce limit; above 80 percent Reject. On Reduce, maximum approvable installment equals 70 percent times adjusted income minus existing obligations, converted to a loan amount by Present Value: installment times \[1 minus (1+r) to the power minus n\] divided by r.
-
-3. **One expected result (predictable before running)** \- 
-
-KHCN-03, Trịnh Thị Hạnh, 44
-
-Inputs seen by player: unsecured, requested 280,000,000 VND over 72 months at 18 percent per year; self-reported income 95,000,000 (cash sales, notebook records, no business account); self-declared obligations 10,000,000; estimated installment shown 7,110,200.
-
-Predicted reasoning: tenor caps to 60 months (72 exceeds the unsecured cap). Installment stays 7,110,200. Income is cash-based and unverifiable, so it counts at 30 percent \= 28,500,000. CIC reveals an undisclosed 5,000,000 working-capital loan, so true obligations are 15,000,000, not 10,000,000. Adjusted DTI \= (15,000,000 \+ 7,110,200) / 28,500,000 \= 77.6 percent.
-
-Predicted result: 70 to 80 percent zone, so Reduce limit. Maximum installment \= 0.70 times 28,500,000 minus 15,000,000 \= 4,950,000. Converted by PV at 60 months, 1.5 percent monthly, the defensible offer is about 194,900,000 VND at the same term.
-
-Why this case: it exercises every branch at once \- verification discount, CIC hidden debt, product tenor cap, and the Reduce-limit conversion \- so if the team can predict this, the chain is proven.
-
-4. **Claim boundary by output**
-
-Adjusted income and Adjusted DTI are Calculations: a number under stated assumptions, no verdict implied.
-
-The DTI band label is Classification: a category from team-stated thresholds, not a guaranteed industry standard.
-
-Approve / Reduce / Reject is Classification, not Recommendation: it states which side of the 70/80 lines the request falls on, with no advisory language.
-
-5. **Threshold disclosure (sourced vs assumption)**
-
-Sourced from finance-expert feedback and typical VN practice: 100 percent for verified income; the 30-40 percent range for unverified income; the 70 percent approve ceiling and 80 percent reject floor; max age 70; PMT and PV formulas.
-
-Marked as team assumption: the exact 30 percent used inside the range; the flat 18 percent / 11 percent rates applied across all cases (no per-case rate is recorded); the 60-month unsecured cap as an MVP choice.
-
+| Chain element | Defined in | Consumed by |
+| :---- | :---- | :---- |
+| Formulas, thresholds, order of operations | Rulebook S2-S4, S6 | MVP flow, dossier answer keys, build, test cases |
+| Input visibility (visible vs hidden) | MVP S6 | UI (Design), test cases |
+| Claim boundary wording | Rulebook S5; MVP S5 | Card copy (Design/Content), README |
+| Golden expected result | Dossier set, KHCN-03 | Deployment demo, Week 6 test set |
