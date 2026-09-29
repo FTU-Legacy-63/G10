@@ -1,8 +1,7 @@
 # PROJECT_LOGIC_CHAIN.md
 
-**The Credit Desk - Project Logic Chain (Week 4, Part A)**
-Owner: Luong (Integration and Checkpoint Owner)
-Source of truth: `Adjusted_CREDIT_APPRAISAL_RULEBOOK.md`, `OFFICIAL_MVP_(1C-CAPACITY).md`
+**The Credit Desk - Project Logic Chain**
+Owner: Doan Diep Anh
 Scope: 1C MVP, Capacity only (DTI). Character, Capital, Collateral and Conditions are out of scope.
 
 ## 1. Inherited Chain: Problem -> Product -> User Task
