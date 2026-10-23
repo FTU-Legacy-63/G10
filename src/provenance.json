@@ -1,0 +1,13 @@
+{
+  "dataset": "extended-8-g1-v1",
+  "warehouse": "shared-168-v1",
+  "dossierSHA256": "62a94a19ebd6ab4a0e03564eb7af2d5a87a6eaffe801509fa09439fcf9c522c5",
+  "warehouseSHA256": "997e41bd01432e886647bc89a97e7e4a2496ca159341c5b83413d7eb304de126",
+  "transform": "scripts/import_content.py: public A sources + public Warehouse columns only; internal B/D separate",
+  "reviewRequired": [
+    "Case 04 rental-tax/income basis",
+    "General Capital-after-Reduce policy",
+    "Case 07 trap-label inconsistency",
+    "Noise-record structured eligible-income totals not supplied"
+  ]
+}
