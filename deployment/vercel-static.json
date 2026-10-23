@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/",
+      "status": 307,
+      "headers": { "Location": "/integration/" }
+    },
+    { "handle": "filesystem" },
+    { "src": "/integration/?", "dest": "/index.html" }
+  ]
+}
