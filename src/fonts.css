@@ -1,0 +1,43 @@
+/* Official Google Fonts assets, served locally for the concept prototype.
+ * Titles: Amatic SC. Every other text role: Mali.
+ * Licenses and Unicode cmap inspection: public/assets/concept-study/fonts/.
+ */
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('/assets/concept-study/fonts/AmaticSC-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('/assets/concept-study/fonts/AmaticSC-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mali';
+  src: url('/assets/concept-study/fonts/Mali-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mali';
+  src: url('/assets/concept-study/fonts/Mali-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mali';
+  src: url('/assets/concept-study/fonts/Mali-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}

@@ -1,0 +1,47 @@
+.discovery-app .cs-terminal-case { display:flex; flex-wrap:wrap; gap:.5em; }
+/* Keep live writing off the ledger's binding and metal rings. */
+.discovery-ledger { position:absolute; inset:0; pointer-events:none!important; }
+.discovery-ledger-register { position:absolute; left:12%; top:17%; width:51.5%; height:68%; display:flex; flex-direction:column; pointer-events:auto; }
+.discovery-app .discovery-ledger-register>h3 { font-size:2.5em; flex-shrink:0; }
+.discovery-ledger-register>.muted { font-size:.8em; margin:.65em 0 1em; flex-shrink:0; }
+.discovery-ledger-register .ledger-table-wrap { flex:1; min-height:0; overflow:auto; padding-right:.5em; }
+.discovery-app .discovery-ledger .ledger-table { font-size:.8em; table-layout:fixed; }
+.discovery-ledger .ledger-table th:first-child { min-width:0; width:33%; }
+.discovery-ledger .ledger-table th:nth-child(2) { width:26%; }
+.discovery-ledger .ledger-table th:nth-child(3) { width:27%; }
+.discovery-ledger .ledger-table th:last-child { width:14%; }
+.discovery-app .discovery-ledger th,.discovery-app .discovery-ledger td { padding:.65em .45em; overflow-wrap:anywhere; }
+.discovery-app .discovery-ledger thead th { white-space:normal; background:transparent; }
+.discovery-ledger .readiness { display:block; margin-top:.3em; font-size:.75em; }
+.discovery-app .discovery-ledger td:last-child button { min-height:34px; padding:.25em 0; }
+.discovery-ledger-summary { position:absolute; left:69%; top:19%; width:20.3%; height:65%; overflow:auto; pointer-events:auto; padding-right:.5em; }
+.discovery-ledger-summary .ledger-totals { grid-template-columns:1fr; gap:1.2em; font-size:.92em; }
+.discovery-ledger-summary .ledger-totals>div { flex-direction:column; }
+.discovery-ledger-summary .ledger-totals strong { font-size:1em; overflow-wrap:anywhere; }
+.discovery-ledger-summary>.fine { font-size:.75em; line-height:1.7; }
+.discovery-ledger-summary .review-actions { flex-direction:column; align-items:flex-start; font-size:.86em; }
+.discovery-app .discovery-ledger-summary .review-actions>button { padding:.4em 0; font-size:1.2em; }
+.discovery-ledger-summary .review-actions>button::before { content:''; display:inline-block; margin-right:.7em; width:8px; height:10px; background:currentColor; clip-path:polygon(0 0,100% 50%,0 100%); }
+.discovery-app .cs-report-surface { left:12%; top:17%; width:51.5%; height:68%; padding:0; }
+.discovery-app .cs-report-surface .cs-report-tabs { font-size:.85em; flex-shrink:0; }
+.discovery-app .cs-report-surface .reference-grid { grid-template-columns:1fr 1fr; }
+.discovery-app .cs-report-surface .ledger-totals { gap:.6em; font-size:.85em; }
+.discovery-app .cs-report-surface .ledger-table { font-size:.75em; }
+.discovery-app .cs-report-surface th,.discovery-app .cs-report-surface td { padding:.5em .35em; overflow-wrap:anywhere; }
+.discovery-app .cs-report-surface .ledger-table th:first-child { min-width:100px; }
+.discovery-app .cs-report-surface thead th { white-space:normal; background:none; }
+.discovery-app .cs-report-surface .cs-report-navigation { display:none; }
+.discovery-report-index { position:absolute; left:69%; top:19%; width:20.3%; height:65%; overflow:auto; padding-right:.5em; }
+.discovery-report-index>p { font-size:.75em; }
+.discovery-app .discovery-report-index button { display:block; width:100%; text-align:left; font-size:.9em; padding:.65em 0; }
+.discovery-report-index button span { display:block; font-size:.65em; margin-bottom:.2em; }
+@media(max-width:900px) {
+  .discovery-app .cs-live-layer>.discovery-ledger { display:flex; flex-direction:column; gap:1.5em; pointer-events:auto!important; }
+  .discovery-ledger-register,.discovery-ledger-summary { position:relative; inset:auto; width:100%; height:auto; overflow:visible; }
+  .discovery-ledger-register .ledger-table-wrap { overflow:auto; flex:auto; }
+  .discovery-app .discovery-ledger .ledger-table { min-width:510px; font-size:12px; }
+  .discovery-app .cs-live-layer>.cs-report-surface { left:auto; top:auto; width:calc(100% - 48px); height:auto; padding:20px; }
+  .discovery-app .cs-report-surface .cs-report-overview-table { overflow:auto; }
+  .discovery-app .cs-report-surface .ledger-table { min-width:570px; }
+  .discovery-app .cs-live-layer>.discovery-report-index { position:relative; inset:auto; width:calc(100% - 48px); height:auto; margin:24px; padding:20px; }
+}

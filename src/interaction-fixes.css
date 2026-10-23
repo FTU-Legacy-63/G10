@@ -1,0 +1,27 @@
+/* Only the approved R02 entry cue, text dialogue and one dark scene blink. */
+.discovery-app .cs-live-layer{transition:none}
+.discovery-object.discovery-object-hint i{position:absolute;left:34%;top:-10%;font-style:normal;line-height:1;font-size:clamp(24px,2vw,36px);color:#f1e5bf;filter:drop-shadow(0 1px 1px #211d13) drop-shadow(0 0 1px #211d13);pointer-events:none}
+.discovery-object.discovery-object-hint:focus-visible::after{content:none}
+.discovery-app .discovery-object>.discovery-assignment-cue{position:absolute;left:50%;top:auto;bottom:calc(100% + 8px);transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;width:max-content;max-width:calc(78vw - 24px);height:auto;overflow:visible;clip:auto;margin:0;padding:0;border:0;background:none;color:#f6e8c8;font-family:'Mali',cursive;font-size:calc(clamp(16px,1.05vw,18px)*var(--text-factor));font-weight:500;line-height:1.55;text-align:center;text-shadow:0 1px 2px #21180f,0 0 4px #21180f;pointer-events:none}
+.discovery-assignment-cue *{pointer-events:none}
+.discovery-assignment-arrow{width:32px;height:38px;flex:none;overflow:visible;filter:drop-shadow(0 1px 1px #120e09);animation:assignment-point 1.6s ease-in-out infinite}
+.discovery-work[inert] .discovery-assignment-arrow{animation-play-state:paused}
+.discovery-app [data-motion=reduced] .discovery-assignment-arrow{animation:none}
+@keyframes assignment-point{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+.discovery-app .cs-live-layer>.discovery-conversation,
+.discovery-app .cs-live-layer>.discovery-conversation:is(:hover,:active,:focus-visible){left:12%;top:78%;width:76%;height:auto;min-height:44px;padding:.25em 0;margin:0;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;outline:0!important;color:#fff0d2!important;font-size:calc(clamp(17px,1.55vw,26px)*var(--text-factor));font-weight:500;line-height:1.65;white-space:nowrap;text-shadow:0 1px 2px #21180f,0 0 5px #21180f}
+.discovery-app .cs-live-layer>.discovery-conversation:focus-visible{color:#fffbed!important;text-shadow:0 0 2px #21180f,0 0 8px #f7e4ad,0 1px 2px #21180f}
+.discovery-spoken-line{display:inline-block;white-space:nowrap;max-width:100%;vertical-align:middle}
+.discovery-flash{position:absolute;inset:0;z-index:50;background:#040603;opacity:0;pointer-events:none}
+.discovery-flash-closing{opacity:1;transition:opacity 60ms linear;pointer-events:auto}
+.discovery-flash-covered{opacity:1;pointer-events:auto}
+.discovery-flash-opening{opacity:0;transition:opacity 80ms linear;pointer-events:auto}
+.discovery-scene-loading{position:absolute;z-index:51;bottom:4%;left:30%;right:30%;margin:0!important;color:#f4e8c9;text-align:center;text-shadow:0 1px 4px #000;font-size:.8em;pointer-events:none;opacity:0;animation:scene-loading 0s .35s forwards}
+.discovery-transition-error{position:absolute;z-index:55;bottom:5%;left:20%;right:20%;padding:.8em 1em;border:2px solid #5c573f;background:#e9ddbd;display:flex;align-items:center;justify-content:space-between;gap:1em;font-size:.85em}
+@keyframes scene-loading{to{opacity:1}}
+@media(max-width:900px){
+ .discovery-app .discovery-object>.discovery-assignment-cue{font-size:calc(14px*var(--text-factor));gap:6px}
+ .discovery-app .cs-live-layer>.discovery-conversation,.discovery-app .cs-live-layer>.discovery-conversation:is(:hover,:active,:focus-visible){left:7%;top:auto;bottom:17%;width:86%;padding:.4em 0;font-size:calc(16px*var(--text-factor))}
+ .discovery-transition-error{left:16px;right:16px;flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){.discovery-flash{transition:none!important}.discovery-assignment-arrow{animation:none!important}}
