@@ -1,0 +1,309 @@
+[
+  {
+    "id": "KHCN-01",
+    "name": "Trần Phương Anh",
+    "age": 35,
+    "province": "Bắc Ninh",
+    "product": "Unsecured",
+    "principal": 500000000,
+    "requestedMonths": 60,
+    "appliedMonths": 60,
+    "annualRate": 0.18,
+    "emi": 12696714,
+    "narrative": [
+      "Trần Phương Anh is 35 years old, married, and lives in Bắc Ninh with her husband, an AI engineer, their four-year-old son, and her mother-in-law, who looks after the boy during the week. The boy attends a private bilingual kindergarten, the family takes one trip abroad each year, and Phương Anh describes the household as \"comfortable but careful\". Spending on groceries, utilities, kindergarten fees and petrol runs to about 22 million VND a month. The family apartment is registered in the joint names of Phương Anh and her husband.",
+      "Phương Anh says she has worked for seven years at a Korean-owned electronics manufacturer in an industrial park in Bắc Ninh and is now its HR manager, on a permanent contract. She states her salary is 38 million VND a month. The company also gives her an annual health check-up and a team-building trip, which she says she values more than a bonus. Bank sector note: Phương Anh's income comes from the electronics manufacturing sector, which the bank rates as having a favorable outlook; exports from Bắc Ninh grew by close to 40% in the first nine months of 2026.",
+      "Two years ago she took a bank loan to fit out and furnish the apartment and says she has repaid 10 million VND a month ever since, without a missed payment. She says she has no other debts and no credit cards.",
+      "She now wants to buy a mid-size SUV. The dealer's proforma invoice shows a price of 900 million VND, and she has already paid a 50 million deposit from her own account. She will put in 400 million VND of savings and asks the bank for 500,000,000 VND over 60 months as an unsecured personal loan. She does not want to pledge the apartment or any other asset, and no lien would be registered on the car. Besides the 400 million, she keeps 85 million VND in a savings account and a 50 million VND term deposit, both in her own name.",
+      "Branch note: the originals of her ID, labour contract and payslips match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 12,696,714 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 1. Credit inquiries in the last month: 2 (this bank on the application date; one other bank 9 days ago, for a car-loan quote). One earlier inquiry, from a card issuer, dates from 6 weeks ago. Active loans: (1) bank installment loan, 10,000,000 VND/month, on time. No other debts on record."
+    ],
+    "collateral": [],
+    "source": "DOSSIER-8 (13), KHCN-01, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-02",
+    "name": "Đỗ Văn Kiên",
+    "age": 41,
+    "province": "Hồ Chí Minh City",
+    "product": "Secured",
+    "principal": 700000000,
+    "requestedMonths": 180,
+    "appliedMonths": 180,
+    "annualRate": 0.11,
+    "emi": 7956179,
+    "narrative": [
+      "Đỗ Văn Kiên is 41 years old and lives in Hồ Chí Minh City with his wife, their two children (aged 9 and 6) and his mother. His wife sews from home and earns about 7 million VND. The family rents an apartment and, all in, spends about 14 million a month on rent, groceries, school costs and his mother's medicine. On weekends Kiên coaches the youth football team at his children's school, and every summer the family spends two weeks in his wife's home village.",
+      "Kiên says that for six years he has been a warehouse supervisor at a logistics company in Hồ Chí Minh City, and that his salary is 19.5 million VND a month. He says he was named employee of the year in 2023. Bank sector note: Kiên's income comes from the logistics sector, which the bank rates as having a neutral outlook.",
+      "He says he repays a bank loan of 4 million VND a month on a used family car, and a personal loan of 5 million a month that he took last year to pay for his mother's heart-valve surgery. He says both are up to date.",
+      "The couple now wants to buy a small two-storey house in an alley in Hóc Môn, in the north-west of the city, because the landlord keeps raising the rent. The deposit agreement with the seller shows a total price of 1,000,000,000 VND for a 4 m × 11 m plot (44 m²) with a separate title. The house would be registered in the joint names of Kiên and his wife, and both have signed the mortgage consent. Kiên would put in 300 million VND of savings, built up over the years with some help from his wife's parents, and asks the bank for 700,000,000 VND over 180 months. After paying the 300 million he would keep about 60 million VND in a savings account in his name.",
+      "Branch note: the originals of his ID, labour contract, payslips and the deposit agreement match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 7,956,179 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 1. Credit inquiries in the last month: 1 (this bank). Active loans: (1) bank auto loan, 4,500,000 VND/month, on time; (2) bank personal loan, 5,000,000 VND/month, on time. No other debts on record."
+    ],
+    "collateral": [
+      [
+        "Collateral type",
+        "Real estate (alley house, Hóc Môn)"
+      ],
+      [
+        "Appraised value",
+        "1,060,000,000 VND"
+      ],
+      [
+        "Senior claims outstanding",
+        "None"
+      ],
+      [
+        "Ownership status",
+        "Clear"
+      ],
+      [
+        "Transferability",
+        "Transferable"
+      ]
+    ],
+    "source": "DOSSIER-8 (13), KHCN-02, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-03",
+    "name": "Trịnh Thị Hạnh",
+    "age": 44,
+    "province": "Hải Phòng",
+    "product": "Unsecured",
+    "principal": 500000000,
+    "requestedMonths": 60,
+    "appliedMonths": 60,
+    "annualRate": 0.18,
+    "emi": 12696714,
+    "narrative": [
+      "Trịnh Thị Hạnh is 44 and lives in Hải Phòng with her husband, who earns about 14 million VND a month, their two children (aged 17 and 12), who attend a public school costing about 1.5 million a month in total, plus about 2.5 million a month for extra classes, and her mother. The mother's medicine and care cost about 3 million a month, which Hạnh's younger brother, who works in Japan, sends straight to Hạnh's account almost every month. The family spends roughly 18 million a month on daily living and usually travels during the Tết holiday, at a cost of about 25 million.",
+      "Hạnh says she has been a lecturer at a university in Hải Phòng for sixteen years, on a permanent contract, and that she earns about 30 million VND a month there, allowances included. For the last three years she has also worked as a part-time training adviser for a port-logistics company in the city, which she says pays her 8 million VND a month. She adds that last semester the university's research fund paid her 30 million VND for a project she completed. Bank sector note: Hạnh's main income comes from teaching at a public university, in the higher-education sector, which the bank rates as having a neutral outlook, and her second income comes from the port-logistics sector, which the bank also rates as having a neutral outlook.",
+      "Four years ago she took a bank loan to build an extension on the family house, and says she repays 11.5 million VND a month on it. She also says she finished paying off a consumer-finance loan for household appliances last month, and that apart from the house loan she has no other debts.",
+      "Her eldest child has been accepted by a university in Australia. The offer letter, the university's fee invoice and its first-year cost-of-living estimate add up to about 900 million VND at the bank's exchange rate. The family will pay 400 million from savings, and Hạnh asks the bank for 500,000,000 VND over 60 months as an unsecured personal loan. After the 400 million, the family keeps 110 million VND in a savings account and a 40 million VND term deposit, both in Hạnh's name.",
+      "Branch note: the originals of her ID, both labour contracts, the payroll files and the university documents match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 12,696,714 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 2 (the house-extension loan was 24 days overdue about seven months ago and has been paid on time since). Credit inquiries in the last month: 1 (this bank). Active: (1) bank house-extension loan, 11,500,000 VND/month; (2) bank credit card, limit 80,000,000 VND, outstanding balance 58,000,000 VND, minimum payment 2,900,000 VND/month, on time. Closed: (3) consumer-finance loan (household appliances), fully repaid last month, balance 0 (former installment 3,200,000 VND/month)."
+    ],
+    "collateral": [],
+    "source": "DOSSIER-8 (13), KHCN-03, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-04",
+    "name": "Nguyễn Văn Thịnh",
+    "age": 66,
+    "province": "Đà Nẵng",
+    "product": "Secured",
+    "principal": 450000000,
+    "requestedMonths": 120,
+    "appliedMonths": 48,
+    "annualRate": 0.11,
+    "emi": 11630485,
+    "narrative": [
+      "Nguyễn Văn Thịnh is 66 and lives in Đà Nẵng with his wife, who runs a small tea stall and earns about 7 million VND in a good month. They help pay about 3 million a month towards the school fees of a granddaughter, and every autumn they spend about 10 million on visiting their son, who runs a small café in Hà Nội, for two weeks. Thịnh is retired and spends most mornings practising calligraphy at a local club, which charges about 500,000 a month. The couple pay about 50 million a year for a private health-insurance plan.",
+      "About five years ago Thịnh retired after forty years as a teacher at a state secondary school in Đà Nẵng, and says he now receives a pension of 8 million VND a month. He says he owns a shophouse on a main road near the market and two other houses in the city, besides the house the couple live in. The shophouse, he says, is let on a registered lease to a phone-retail chain at 24 million a month, and one of the houses is let to a family at 15 million a month; the tenants left security deposits of 48 million and 30 million, which he must return when the leases end. The other house has just been renovated and is advertised at 12 million a month. He says that last year he also sold family farmland in his home village for 900 million VND, most of which went to help his son open the café. He puts his monthly income at about 47 million VND. Bank sector note: Thịnh's income comes from a state pension and from rent under registered leases. The bank applies no sector cycle to these income sources and rates their outlook as neutral.",
+      "The renovation of that third house was paid for with a bank loan secured on that house, on which he says he pays 8 million a month; he tells the bank it is his only debt.",
+      "Thịnh now wants to rebuild the old, cramped single-storey house the couple live in, on a 90 m² plot in his home village in a commune of Hòa Vang, on the outskirts of Đà Nẵng. The contractor's quote for adding two floors and modernising it is 750 million VND. He will put in 300 million VND of savings and asks the bank for 450,000,000 VND over 120 months, offering that house as security. It is registered in the joint names of Thịnh and his wife, and both have signed the mortgage consent. Besides the 300 million for the works, the couple keep about 50 million VND in a savings account.",
+      "Branch note: the officer compared his ID, the four land-use certificates, the three lease contracts and the pension book with the land registry and the Social Insurance Agency. Every document is genuine and matches the registry. Several of the rents and debts he states differ from what these records show.",
+      "Bank system note — estimated monthly installment for this request: 11,630,485 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 1. Credit inquiries in the last month: 1 (this bank). Active loans: (1) bank loan, 8,000,000 VND/month, on time; (2) bank personal loan, opened 14 months ago, 4,500,000 VND/month, on time. No other debts on record."
+    ],
+    "collateral": [
+      [
+        "Collateral type",
+        "Real estate (old single-storey house on a 90 m² plot, Hòa Vang, Đà Nẵng)"
+      ],
+      [
+        "Appraised value",
+        "620,000,000 VND"
+      ],
+      [
+        "Senior claims outstanding",
+        "None (the 8,000,000 loan is secured on the renovated third house)"
+      ],
+      [
+        "Ownership status",
+        "Clear (joint names, both spouses consent)"
+      ],
+      [
+        "Transferability",
+        "Transferable"
+      ]
+    ],
+    "source": "DOSSIER-8 (13), KHCN-04, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-05",
+    "name": "Vũ Minh Tuấn",
+    "age": 39,
+    "province": "Hồ Chí Minh City",
+    "product": "Secured",
+    "principal": 680000000,
+    "requestedMonths": 240,
+    "appliedMonths": 240,
+    "annualRate": 0.11,
+    "emi": 7018881,
+    "narrative": [
+      "Vũ Minh Tuấn is 39, divorced, and lives alone in a rented one-bedroom apartment in Hồ Chí Minh City. His six-year-old daughter lives with her mother in Thủ Đức; Tuấn pays her school fees of about 6 million VND a month, plus about 1.5 million for after-school classes. His own living costs come to about 20 million a month, of which the rent is about 12 million (he paid a three-month deposit of 36 million when he moved in). He plays golf once a month at about 2.5 million, and takes a beach holiday every summer that costs about 15 million.",
+      "Tuấn says he has been a senior editor for seven years at a digital media company in Hồ Chí Minh City, on a permanent contract, and that his salary there is 15 million VND a month. Outside work hours he makes video content under his own name, with about 380,000 followers, and says brand advertising contracts bring him \"around 30 million a month on average\". He tells the bank he earns \"around 45 million a month in total\". He says he has three more campaigns in negotiation that should pay around 120 million in total. He says that over the last three years he has saved about 380 million VND, mostly from his advertising income. Bank sector note: Tuấn's income comes from the digital media sector, which the bank rates as having a neutral outlook.",
+      "Two years ago he took a personal loan to clear credit-card debts. He says he pays about 2 million VND a month on it and that it is his only debt.",
+      "He now wants to buy a one-bedroom apartment of 40 m² in a tower in Dĩ An, in the north-east of the city next to Thủ Đức and a short ride from his daughter, because he is tired of renting. The deposit agreement with the seller shows a price of 1,000,000,000 VND for the apartment. He will put in 320 million VND of savings and asks the bank for 680,000,000 VND over 240 months. After that he keeps about 60 million VND: 38 million in a savings account and a 22 million term deposit, both in his name. The apartment would be registered in his name alone.",
+      "Branch note: the originals of his ID, labour contract, bank statements and the deposit agreement match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 7,018,881 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 2 (the personal loan was 22 days overdue about four months ago and has been regularised; on time since). Credit inquiries in the last month: 1 (this bank). Active: (1) bank personal loan, 2,800,000 VND/month; (2) consumer-finance installment plan, 1,400,000 VND/month, opened eight months ago, on time. Closed: (3) bank credit card, balance cleared and account closed when the personal loan was taken."
+    ],
+    "collateral": [
+      [
+        "Collateral type",
+        "Real estate (one-bedroom apartment, 40 m², Dĩ An)"
+      ],
+      [
+        "Appraised value",
+        "1,012,000,000 VND"
+      ],
+      [
+        "Senior claims outstanding",
+        "None"
+      ],
+      [
+        "Ownership status",
+        "Clear"
+      ],
+      [
+        "Transferability",
+        "Transferable"
+      ]
+    ],
+    "source": "DOSSIER-8 (13), KHCN-05, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-06",
+    "name": "Lê Minh Quân",
+    "age": 38,
+    "province": "Hải Phòng",
+    "product": "Secured",
+    "principal": 1540000000,
+    "requestedMonths": 240,
+    "appliedMonths": 240,
+    "annualRate": 0.11,
+    "emi": 15895701,
+    "narrative": [
+      "Lê Minh Quân is 38 years old, married, and lives in Hải Phòng with his wife, who has been a full-time homemaker since their second child was born, and their two children (aged 9 and 5). The family rents an apartment for 12 million VND a month and spends about 25 million a month on daily living, school fees and the running costs of the family car. They take one family holiday a year, costing about 30 million.",
+      "Quân says he has worked for ten years at a freight-forwarding company at Hải Phòng port, where he is now Operations Team Leader, on a permanent contract, and that his salary there is 27 million VND a month. For the last two years he has also worked part-time as a supply-chain adviser for a garment exporter in the city, under an open-ended labour contract, for a fixed 5 million VND a month. He tells the bank he earns about 32 million a month in total. Bank sector note: Quân's main income comes from the freight-forwarding sector, which the bank rates as having a neutral outlook; his second income comes from the garment export manufacturing sector, which the bank rates as having an unfavorable outlook.",
+      "Three years ago he took a bank loan to buy the family car and says he repays 7.9 million VND a month on it. He says it is his only debt.",
+      "He now wants to buy a two-bedroom resale apartment of 57 m² in central Hải Phòng. The seller, who is emigrating, has agreed a quick-sale price of 2,050,000,000 VND, below what comparable apartments are listed for. The signed sale and purchase agreement, a copy of the seller's ownership certificate and the receipt for a 100 million VND deposit are in the file and show the same price, address and area. Quân will put in 510 million VND of his own capital, already set aside in a separate savings account, and asks the bank for 1,540,000,000 VND over 240 months. The apartment would be registered in the joint names of Quân and his wife and mortgaged to the bank.",
+      "Besides the 510 million, the family's assets are: 25 million VND in a current account; two term deposits in Quân's name, of 6 and 12 months, worth 150 million VND in total; a savings account holding 100 million VND that Quân's brother lent him interest-free to cover moving costs, to be repaid next year; and the family car, bought for about 450 million. They own no real estate.",
+      "Branch note: the originals of his ID, both labour contracts, the payroll files and the sale and purchase agreement match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 15,895,701 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 1. Credit inquiries in the last month: 1 (this bank). Earlier history: the car loan was 17 days overdue (Group 2) about 14 months ago, was cleared that month and has been on time since. Active loans: (1) bank auto loan, 7,900,000 VND/month, on time. No other debts on record."
+    ],
+    "collateral": [
+      [
+        "Collateral type",
+        "Real estate (2-bedroom apartment, 57 m², central Hải Phòng)"
+      ],
+      [
+        "Appraised value",
+        "2,200,000,000 VND"
+      ],
+      [
+        "Senior claims outstanding",
+        "None"
+      ],
+      [
+        "Ownership status",
+        "Clear (the seller's title is free of claims; after transfer the apartment is registered jointly to Quân and his wife, who have both signed the mortgage consent)"
+      ],
+      [
+        "Transferability",
+        "Transferable"
+      ]
+    ],
+    "source": "DOSSIER-8 (13), KHCN-06, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-07",
+    "name": "Đinh Quốc Bảo",
+    "age": 41,
+    "province": "Đồng Nai",
+    "product": "Secured",
+    "principal": 1000000000,
+    "requestedMonths": 240,
+    "appliedMonths": 240,
+    "annualRate": 0.11,
+    "emi": 10321884,
+    "narrative": [
+      "Đinh Quốc Bảo is 41 years old, married, and lives in Biên Hòa, Đồng Nai, with his wife, their two children (aged 11 and 7) and his father. The family rents a house for 9 million VND a month and spends about 28 million a month on daily living, school fees and his father's care.",
+      "Bảo says he has worked for twelve years at a garment export factory in Biên Hòa, where he is now production planning manager, on a permanent contract. He states his salary as 42 million VND a month, saying a raise to that level takes effect next January. Bank sector note: Bảo's only income source is the garment export manufacturing sector, which the bank rates as having an unfavorable outlook: export growth is forecast in single digits under tariff and labour-cost pressure.",
+      "Three years ago he bought a 140 m² residential plot in a planned residential area in Biên Hòa, paying for it partly with a mortgage from another bank, Bank X. He says he repays 7.96 million VND a month on that loan and that it is his only debt.",
+      "He now wants to build a two-storey house on the plot, with a floor area of about 200 m². The contractor's quote and the building permit, both in the file, show a cost of 1,300,000,000 VND. Bảo will put in 300 million VND of savings and asks the bank for 1,000,000,000 VND over 240 months, offering the plot as security. The land-use certificate is in Bảo's name and his wife has signed the spousal consent. Bank X has given written consent to a second-ranking mortgage on the plot. Besides the 300 million, he keeps 120 million VND: 70 million in a savings account and a 50 million term deposit, both in his name.",
+      "Branch note: the originals of his ID, labour contract, payroll file, land-use certificate and the contractor's quote match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 10,321,884 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 1. Credit inquiries in the last month: 3 (this bank, and two other banks 12 and 20 days ago, where he asked for offers). Active loans: (1) Bank X mortgage loan, secured on the plot, 7,960,000 VND/month, outstanding balance 700,000,000 VND, on time. No other debts on record."
+    ],
+    "collateral": [
+      [
+        "Collateral type",
+        "Real estate (residential land plot, 140 m², Biên Hòa)"
+      ],
+      [
+        "Appraised value",
+        "1,960,000,000 VND"
+      ],
+      [
+        "Senior claims outstanding",
+        "700,000,000 VND (Bank X first-ranking mortgage, see CIC)"
+      ],
+      [
+        "Ownership status",
+        "Clear"
+      ],
+      [
+        "Transferability",
+        "Transferable"
+      ]
+    ],
+    "source": "DOSSIER-8 (13), KHCN-07, A/A2/A3/A4"
+  },
+  {
+    "id": "KHCN-08",
+    "name": "Phạm Gia Hưng",
+    "age": 36,
+    "province": "Hà Nội",
+    "product": "Unsecured",
+    "principal": 450000000,
+    "requestedMonths": 60,
+    "appliedMonths": 60,
+    "annualRate": 0.18,
+    "emi": 11427042,
+    "narrative": [
+      "Phạm Gia Hưng is 36 years old, married, and lives in Hà Nội with his wife and their five-year-old daughter, in a three-bedroom apartment in Hà Đông that the couple bought in 2021 and that is registered in their joint names. The family spends about 30 million VND a month on daily living, kindergarten and the running costs of the family car.",
+      "Hưng says he has been a senior software engineer for nine years at an IT outsourcing company in Hà Nội, on a permanent contract, and that his salary there is 45 million VND a month. Bank sector note: Hưng's income comes from the IT outsourcing sector, which the bank rates as having a neutral outlook.",
+      "Two years ago he took a bank loan to buy the family car and says he repays 6 million VND a month on it. He says it is his only debt.",
+      "Hưng asks the bank for an unsecured personal loan of 450,000,000 VND over 60 months. He says the purpose is to renovate and furnish the family's apartment in Hà Đông. The total cost is 640 million VND, of which he will pay 190 million from savings. He keeps another 130 million VND in a term deposit and a savings account in his name.",
+      "The file contains a fit-out contract for 640,000,000 VND between Hưng and an interior-construction company, the company's registration certificate, its bill of quantities. The branch officer confirmed with the contractor and the landlord that all four documents are genuine and consistent with one another. The fit-out contract names as its site a ground-floor unit of 85 m² on a street in Cầu Giấy, not the Hà Đông apartment. The bill of quantities lists a service counter, a commercial kitchen with an exhaust system, customer seating and shopfront signage. The lease is for the same ground-floor unit, as business premises.",
+      "Branch note: the originals of his ID, labour contract and payslips match the copies in the file and each other.",
+      "Bank system note — estimated monthly installment for this request: 11,427,042 VND. Bank system note — income figures above are as declared by the applicant and have not been verified."
+    ],
+    "cic": [
+      "Current CIC group: 1. Worst group in the last 12 months: 1. Earlier history: a credit card was 20 days overdue (Group 2) about 15 months ago, was cleared that month and has been on time since. Credit inquiries in the last month: 2 (this bank, and one other bank 11 days ago). Active loans: (1) bank auto loan, 6,000,000 VND/month, on time. No other debts on record."
+    ],
+    "collateral": [],
+    "source": "DOSSIER-8 (13), KHCN-08, A/A2/A3/A4"
+  }
+]

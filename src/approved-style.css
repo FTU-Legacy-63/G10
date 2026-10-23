@@ -1,0 +1,146 @@
+/* The supplied illustrations own the rooms, props, palette and ink contours.
+ * Opaque paper/CRT regions replace raster placeholders with real data, inside the drawn frames.
+ * Edge atmosphere is decorative and never participates in sizing or pointer handling.
+ */
+.discovery-app{--ink:#27271e;--paper:#e9ddc4;--paper-light:#f1e6cf;--desk-paper:linear-gradient(105deg,#e6d7b8,#eee3cc 48%,#e9dcc2);--edge:#39372b}
+.discovery-app .cs-stage:not(.cs-screen-room) .cs-live-layer{transition:none}
+.discovery-app .cs-live-layer{z-index:1}
+.discovery-atmosphere{position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 50% 49%,transparent 59%,#14150e12 78%,#07090699 100%);box-shadow:inset 0 0 2.3vw 1vw #080b0855}
+/* One continuous curved edge, not rectangular left/right cover patches. */
+.discovery-printed-chrome::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse 500% 35% at 50% -22%,#000 75%,transparent 90%)}
+.discovery-printed-chrome::after{display:none}
+.discovery-printed-chrome .discovery-atmosphere{background:none;box-shadow:none}
+.discovery-app .cs-screen-worksheet::before,.discovery-app .cs-screen-board::before{background:radial-gradient(ellipse 500% 35% at 50% -18%,#000 75%,transparent 90%)}
+.discovery-app.ip-at-title .discovery-atmosphere{background:radial-gradient(ellipse at center,transparent 58%,#0b100a55 100%);box-shadow:inset 0 0 2vw #090d0933}
+
+/* Hand-ink frames and restrained paper/sage states, confined to object controls. */
+.discovery-app .cs-live-layer button:where(:not(.cs-hotspot):not(.pin-handle):not(.discovery-conversation)),.discovery-app .cs-dialog button:not(.discovery-close){border:2px solid var(--edge);border-radius:3px 5px 3px 2px;background:linear-gradient(110deg,#e3d5b8,#eee3cd);color:var(--ink);box-shadow:0 1px 0 #35312355;min-height:38px;transition:background-color 120ms ease,color 120ms ease,box-shadow 120ms ease}
+.discovery-app .cs-live-layer button:hover:not(:disabled):where(:not(.cs-hotspot):not(.pin-handle):not(.discovery-conversation)),.discovery-app .cs-dialog button:hover:not(:disabled):not(.discovery-close){background:#f3e9d0;border-color:#181e15;box-shadow:0 1px 0 #35312366,inset 0 0 0 1px #94825d}
+.discovery-app .cs-live-layer button:active:not(:disabled):where(:not(.cs-hotspot):not(.pin-handle):not(.discovery-conversation)),.discovery-app .cs-dialog button:active:not(:disabled){box-shadow:inset 0 1px 2px #36301d66;background:#cdbd98}
+.discovery-app .cs-live-layer button:is([aria-selected=true],[aria-pressed=true],[aria-current=page]),.discovery-app .cs-dialog button[aria-pressed=true]{background:#c6cbb0;border-color:#303c28;box-shadow:inset 0 -3px #64704a}
+.discovery-app .cs-live-layer button:is(.cs-primary,.primary,.cs-continue),.discovery-app .cs-dialog-actions button:last-child{background:linear-gradient(100deg,#89917b,#737e63);border-color:#263122;color:#fff6df}
+.discovery-app .cs-live-layer button:is(.cs-primary,.primary,.cs-continue):hover:not(:disabled){background:#647451;box-shadow:inset 0 0 0 1px #c9c69e}
+.discovery-app .cs-live-layer button:disabled,.discovery-app .cs-dialog button:disabled{opacity:.62;box-shadow:none;filter:saturate(.6)}
+.discovery-app .cs-live-layer :is(button,input,select,textarea,[tabindex]):focus-visible,.discovery-app .cs-dialog :is(button,input,select,textarea):focus-visible{outline:2px solid #a47b32;outline-offset:3px}
+.discovery-app .cs-live-layer :is(input,select,textarea){border:1.5px solid #6e6a50;border-radius:2px 4px 2px 3px;background:#f2e8d2;color:var(--ink)}
+.discovery-app .cs-live-layer .text-button{background:transparent;box-shadow:none}
+.discovery-app .cs-dialog{border:3px solid #343c2b;outline:2px solid #8d7951;outline-offset:3px;background:var(--desk-paper);border-radius:4px 7px 4px 3px}
+
+/* S06/S12: keep the illustrated folder silhouette and replace its printed sheet. */
+.discovery-app .discovery-folder{left:13.5%;top:15.7%;width:72%;height:73.5%;padding:1.4% 3% 1.8%;background:var(--desk-paper);clip-path:polygon(4% 0,97% 0,100% 100%,0 100%);box-shadow:none}
+.discovery-app .cs-dossier-header{padding:.15em .35em .5em;border-bottom:1px solid #8c8067}
+.discovery-app .cs-dossier-tabs{gap:.3em;padding:.8em 0}
+.discovery-app .cs-dossier-tabs button{font-size:.82em;border-radius:9px 11px 0 0;min-height:42px;background:#d4c9b4;border-color:#4b4839;padding:.45em .5em}
+.discovery-app .cs-dossier-tabs button[aria-selected=true]{background:#f0e6cf;box-shadow:inset 0 3px #778365}
+.discovery-app .cs-dossier-reader{background:#f0e6d0;border:1.5px solid #81785f;box-shadow:inset 0 0 12px #a9977022}
+.discovery-app .cs-dossier-actionrail{gap:.65em;padding-top:0}
+.discovery-app .cs-dossier-actionrail button{padding:.7em .8em;min-height:48px;text-align:center;background:#a1a793;border-color:#3a4331;font-size:.9em}
+.discovery-app .cs-dossier-actionrail .cs-continue{background:#737e63;color:#fff6df;min-height:48px}
+.discovery-app .decision-option{border:1.5px solid #a1957a;background:#f0e6d0;min-height:44px;border-radius:3px 4px 2px 3px}
+.discovery-app .decision-option.selected{border:2px solid #4a583a;background:#d3d8c1}
+.discovery-app .decision-option:focus-within{outline:2px solid #a47b32;outline-offset:2px}
+
+/* S07: source paper stays on its approved clipboard, not inside a different folder. */
+.discovery-app .cs-live-layer>.discovery-source{left:8.7%;top:8.1%;width:82.4%;height:84.5%;padding:1.4% 2%;background:var(--desk-paper);box-shadow:none}
+.discovery-app .cs-monitor-surface{left:25.75%;top:20.6%;width:47.75%;height:58.5%;background:#c1caae}
+.discovery-app .cs-notebook-source{left:10.6%;top:16.1%;width:24.4%;height:73.2%;background:var(--desk-paper);padding:1.1% 1.2%}
+.discovery-app .cs-notebook-surface{left:42.8%;top:15.5%;width:46.1%;height:74.8%;background:var(--desk-paper);padding:1.2% 1.5%}
+
+/* S03: preserve all three drawn task icons and row frames, replace only their writing. */
+.discovery-app .cs-live-layer>.discovery-briefing{position:absolute;inset:0;width:100%;height:100%;padding:0;margin:0;background:none;overflow:hidden}
+.discovery-orientation{position:absolute;inset:0;max-width:none;width:100%;margin:0}
+.discovery-orientation header{position:absolute;left:17.5%;top:5.8%;width:64.5%;height:15.5%;padding:.1em .5em;background:var(--desk-paper)}
+.discovery-orientation h2{font-size:3.5em}
+.discovery-orientation header p{font-size:.91em;margin:.45em 0}
+.discovery-assignment-steps{list-style:none;margin:0;padding:0}
+.discovery-orientation .discovery-assignment-steps li{position:absolute;left:31%;width:51%;height:15%;padding:.45em 1em;margin:0;background:#e1dcc6;line-height:1.5}
+.discovery-orientation .discovery-assignment-steps li:nth-child(1){top:23.4%}
+.discovery-orientation .discovery-assignment-steps li:nth-child(2){top:41.1%;background:#dcdcca}
+.discovery-orientation .discovery-assignment-steps li:nth-child(3){top:58.6%;background:#e3d8c1}
+.discovery-orientation .discovery-assignment-steps h3{font-family:'Mali',cursive;font-size:1.25em;font-weight:600;margin:0 0 .3em;line-height:1.25}
+.discovery-orientation .discovery-assignment-steps p{font-size:.94em;line-height:1.5;margin:.25em 0}
+.discovery-assignment-time{position:absolute;left:23.4%;top:76%;width:60%;height:8.5%;background:#e8dfc9;padding:.4em .8em}
+.discovery-assignment-time strong{font-size:1.05em;font-weight:600}
+.discovery-assignment-time p{font-size:.83em;margin:.25em 0}
+.discovery-orientation footer{position:absolute;left:12%;top:88%;width:76%;height:8.5%;padding:.4em .6em;background:var(--desk-paper);display:flex;align-items:center;justify-content:space-between;gap:1em}
+.discovery-orientation footer>span{font-size:.75em;max-width:30%}
+.discovery-orientation footer>div{display:flex;gap:1em}
+.discovery-orientation footer button{padding:.7em 1em;font-size:.9em}
+
+/* S17: the approved green book keeps its own index/page surfaces and public rule content. */
+.discovery-app .discovery-rulebook{position:absolute;inset:0;margin:0;padding:0;background:none}
+.discovery-book-index{position:absolute;left:10.7%;top:8%;width:17.8%;height:84%;padding:.5%;background:#d9c49a;display:grid;grid-template-rows:repeat(9,minmax(0,1fr));gap:.45em}
+.discovery-app .discovery-book-index button{font-size:.84em;line-height:1.3;padding:.4em .6em;text-align:left;border-radius:2px 15px 15px 2px;background:#dfcda9}
+.discovery-app .discovery-book-index button[aria-current=page]{background:#ebdfb9;box-shadow:inset 4px 0 #45623a}
+.discovery-book-page{position:absolute;left:32.7%;top:5.8%;width:57.2%;height:86.8%;padding:1% 1.1%;background:linear-gradient(100deg,#e9d7ad,#ecddba);display:flex;flex-direction:column;min-height:0}
+.discovery-book-page header{border-bottom:1px solid #9d8c62;margin-bottom:.7em;padding-bottom:.5em;flex-shrink:0}
+.discovery-book-page header h2{font-size:3em}
+.discovery-book-page header p{font-size:.78em;color:#655a40;margin:.3em 0 0}
+.discovery-book-page>.cs-scroll{flex:1;padding:.1em .6em .8em .1em;line-height:1.8}
+.discovery-book-page>.cs-scroll>h3{background:#b9bd98;border:1px solid #9a9976;border-radius:4px;padding:.3em .5em;margin:0 0 .7em;font-size:2em}
+.discovery-book-page ol{padding-left:1.7em}
+.discovery-book-page li{border-bottom:1px solid #c8b88d;margin:0 0 .8em;padding:0 0 .8em .2em;font-size:.92em}
+.discovery-guide-introduction>p{font-size:.92em}
+.discovery-guide-introduction>section{border:1px solid #b4a375;border-radius:3px;margin:1em 0;padding:.7em .9em;background:#eadab8}
+.discovery-guide-introduction h4{margin:0 0 .4em!important;padding-bottom:.3em;border-bottom:1px solid #b3ab80;font-size:1em}
+.discovery-guide-introduction section p{font-size:.88em;line-height:1.8}
+.discovery-guide-introduction button{font-size:.85em!important}
+.discovery-book-pagination{display:flex;align-items:center;justify-content:space-between;gap:1em;border-top:1px solid #9c8960;padding-top:.7em;margin-top:auto;font-size:.85em}
+
+/* S11: the board close-up retains its wooden frame. No cover is placed on the room board. */
+.discovery-app .cs-stage .cs-board-surface{left:20.7%;top:11.6%;width:61%;height:75.6%;padding:1.2% 1.5%;background:repeating-linear-gradient(37deg,#9d774822 0 1px,transparent 1px 5px),#ab8354;box-shadow:inset 0 0 22px #5e402b44}
+.discovery-app .cs-screen-board .cs-live-layer::after{content:'';position:absolute;left:35.5%;top:10.2%;width:3.1%;height:1.6%;background:#ab8354;pointer-events:none}
+.discovery-app .cs-screen-room .discovery-wall-papers{background:none}
+.discovery-app .pinned-card,.discovery-app .board-notepaper{border:1.5px solid #453e2c;border-radius:3px;background:var(--desk-paper)}
+.discovery-app .board-caption{color:#fcf1d7}
+
+/* S13: left register / right allocation follow the original book's binding. */
+.discovery-app .cs-screen-review .cs-ledger-surface{inset:0;width:100%;height:100%;padding:0;background:none;box-shadow:none}
+.discovery-app .cs-screen-review .cs-ledger-surface>.cs-scroll{overflow:visible}
+.discovery-ledger{display:contents}
+.discovery-ledger-register{position:absolute;left:12.8%;top:17.1%;width:52.9%;height:68%;padding:1.1% 1.2%;background:var(--desk-paper);overflow:auto;scrollbar-width:thin}
+.discovery-ledger-summary{position:absolute;left:68.2%;top:17.2%;width:23.3%;height:68%;padding:1.1% 1%;background:var(--desk-paper);overflow:auto;scrollbar-width:thin}
+.discovery-ledger-register>h3,.discovery-ledger-summary>h3{font-size:2.5em}
+.discovery-ledger-register>.muted{font-size:.82em;line-height:1.6}
+.discovery-ledger .ledger-table{font-size:.9em}
+.discovery-ledger .ledger-table th:first-child{min-width:140px}
+.discovery-ledger .ledger-table th,.discovery-ledger .ledger-table td{padding:.6em .45em}
+.discovery-ledger .ledger-table button{min-height:34px;padding:.4em .6em;font-size:.9em}
+.discovery-ledger .readiness{display:block;margin-top:.3em}
+.discovery-ledger-summary .ledger-totals{display:flex;flex-direction:column;gap:1em;margin:.8em 0;padding:.6em 0 1em}
+.discovery-ledger-summary .ledger-totals>div{padding-bottom:.8em;border-bottom:1px solid #bdad85}
+.discovery-ledger-summary .ledger-totals strong{font-size:1em;overflow-wrap:anywhere}
+.discovery-ledger-summary .fine{font-size:.78em}
+.discovery-ledger-summary .review-actions{display:block}
+.discovery-ledger-summary .review-actions button{width:100%;margin:.5em 0}
+.discovery-app .cs-report-surface{left:11.8%;top:15.6%;width:80.3%;height:73.2%;background:var(--desk-paper);box-shadow:none}
+
+/* Small screens use a readable paper inside the same illustrated frame; controls still scroll. */
+@media(max-width:900px){
+ .discovery-app .cs-screen-board .cs-live-layer::after{display:none}
+ .discovery-app:not(.ip-at-title) .cs-stage:not(.cs-screen-room):not(.cs-screen-meeting) .cs-background{filter:blur(4px) brightness(.45)!important}
+ .discovery-atmosphere{box-shadow:inset 0 0 20px #080b0866}
+ .discovery-app .cs-live-layer>.discovery-folder,.discovery-app .cs-live-layer>.discovery-source{position:relative;inset:auto;width:calc(100% - 32px);height:auto;margin:16px;padding:18px;background:var(--desk-paper);clip-path:none}
+ .discovery-app .cs-live-layer>.discovery-briefing{position:relative;inset:auto;width:calc(100% - 32px);height:auto;min-height:0;max-height:none;margin:16px;padding:20px;background:var(--desk-paper);overflow:visible;border:2px solid #39372b}
+ .discovery-orientation{position:static;font-size:1em}
+ .discovery-orientation header,.discovery-orientation .discovery-assignment-steps li,.discovery-assignment-time,.discovery-orientation footer{position:static;width:100%;height:auto;background:none;margin:0;padding:.8em 0}
+ .discovery-orientation h2{font-size:2.9em}
+ .discovery-orientation .discovery-assignment-steps li{border-top:1px solid #a79773}
+ .discovery-orientation .discovery-assignment-steps li:nth-child(n){background:none}
+ .discovery-orientation .discovery-assignment-steps h3{font-size:1.15em}
+ .discovery-orientation footer{display:flex;flex-direction:column;align-items:stretch;border-top:1px solid #a79773}
+ .discovery-orientation footer>span{max-width:none}
+ .discovery-orientation footer>div{flex-direction:column;gap:.6em}
+ .discovery-app .cs-live-layer>.discovery-rulebook{position:relative;inset:auto;margin:16px;width:calc(100% - 32px);height:auto;padding:12px;background:#34452e;border:2px solid #172217}
+ .discovery-book-index{position:static;width:auto;height:auto;padding:.5em;background:#d9c49a;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;gap:.4em}
+ .discovery-book-page{position:static;width:auto;height:auto;padding:1.1em;margin-top:1em}
+ .discovery-book-page header h2{font-size:2.4em}
+ .discovery-book-page>.cs-scroll{max-height:60dvh}
+ .discovery-app .cs-live-layer>.cs-monitor-surface,.discovery-app .cs-live-layer>.cs-notebook-source,.discovery-app .cs-live-layer>.cs-notebook-surface,.discovery-app .cs-live-layer>.cs-board-surface,.discovery-app .cs-live-layer>.cs-report-surface{position:relative;inset:auto;width:calc(100% - 32px);height:auto;margin:16px;padding:18px}
+ .discovery-app .cs-screen-review .cs-ledger-surface{position:relative;inset:auto;width:calc(100% - 32px);height:auto;padding:0;margin:16px;background:none}
+ .discovery-ledger-register,.discovery-ledger-summary{position:relative;inset:auto;width:100%;height:auto;padding:18px;margin-bottom:16px;overflow:visible}
+ .discovery-app .cs-dossier-actionrail button{min-height:44px;font-size:.8em}
+ .discovery-app .cs-dossier-tabs button{min-height:44px;font-size:.8em}
+}
+@media(prefers-reduced-motion:reduce){.discovery-app .cs-live-layer button,.discovery-app .cs-dialog button{transition:none}}
+.discovery-app [data-motion=reduced] .cs-live-layer button{transition:none}
