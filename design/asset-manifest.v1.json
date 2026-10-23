@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-19",
+  "nativeSize": [
+    1672,
+    941
+  ],
+  "financialSource": false,
+  "entries": [
+    {
+      "id": "title",
+      "file": "public/assets/integration-pilot/v1/title.png",
+      "runtime": "/assets/integration-pilot/v1/title.png",
+      "reference": "design/concept-study/synchronization-2026-10-19/references/s01-user-final.png",
+      "generatedOriginal": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-c5c31a80-075f-4776-abb5-ebc1b13a308c.png",
+      "sha256": "70ecd080dfa57eea16a2602405da261681de9e4cb982d804cdd3a1276b8853d2",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1621078,
+      "method": "built-in image_gen",
+      "cleanArtVisualReview": "passed; no baked text or controls",
+      "runtimeVerified": true
+    },
+    {
+      "id": "room-r02",
+      "file": "public/assets/integration-pilot/v1/room-r02.png",
+      "runtime": "/assets/integration-pilot/v1/room-r02.png",
+      "reference": "public/assets/concept-study/s02-r02.png",
+      "generatedOriginal": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-337affd1-27a6-4954-9456-1bbd7521ea48.png",
+      "sha256": "f5032b82f54920c051345d4d287de093987dac8e9907aa574261ff38888dbd8d",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1636333,
+      "method": "built-in image_gen",
+      "cleanArtVisualReview": "passed; no baked text or controls",
+      "runtimeVerified": true
+    },
+    {
+      "id": "folder",
+      "file": "public/assets/integration-pilot/v1/folder.png",
+      "runtime": "/assets/integration-pilot/v1/folder.png",
+      "reference": "public/assets/concept-study/s06.png",
+      "generatedOriginal": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-9764a2fd-ce4f-4477-8f86-d2bbf3cdf0c0.png",
+      "sha256": "4c0d9e3390d0d9f332fac1ffe38d0cd118b168a552555752272d885f65eb481f",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1518204,
+      "method": "built-in image_gen",
+      "cleanArtVisualReview": "passed; no baked text or controls",
+      "runtimeVerified": true
+    },
+    {
+      "id": "briefing",
+      "file": "public/assets/integration-pilot/v1/briefing.png",
+      "runtime": "/assets/integration-pilot/v1/briefing.png",
+      "reference": "design/concept-study/generated-2026-10-19/s03.png",
+      "generatedOriginal": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-e1e5fd8e-23c4-4623-9fd9-c00577e81a91.png",
+      "sha256": "50dc8269d453eeb6375b70088d471e1d4877aa8cfc9cc5b8b00f9df23af7e495",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1675538,
+      "method": "built-in image_gen",
+      "cleanArtVisualReview": "passed; no baked text or controls",
+      "runtimeVerified": true
+    },
+    {
+      "id": "intake",
+      "file": "public/assets/integration-pilot/v1/intake.png",
+      "runtime": "/assets/integration-pilot/v1/intake.png",
+      "reference": "design/concept-study/synchronization-2026-10-19/s04-v2.png",
+      "generatedOriginal": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-5a47c19a-56e8-417e-bdac-d8469b3746e5.png",
+      "sha256": "f628e149d088fc77a8d4ca1fb222d2d318eb4936b27794645345a535fa68bc9c",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1599306,
+      "method": "built-in image_gen",
+      "cleanArtVisualReview": "passed; no baked text or controls",
+      "runtimeVerified": true
+    }
+  ]
+}

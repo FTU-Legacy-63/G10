@@ -1,0 +1,134 @@
+[
+  {
+    "id": "room-r01",
+    "file": "public/assets/integration-pilot/v2/room-r01.png",
+    "sha256": "e59d6ef3ee58dad4aa785d1a2d30439eb1f4633ec299fe431f7f41e50c166ec8",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-d454c889-c956-4811-8dd3-59d519896af4.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, no raster controls"
+  },
+  {
+    "id": "room-r03",
+    "file": "public/assets/integration-pilot/v2/room-r03.png",
+    "sha256": "4e7084b3187a96c3216159d60a4716c266e0f98003bd2d2d92c4723da3003ada",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-15b48984-cf36-4e98-8334-0e083a3fd25a.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, no raster controls"
+  },
+  {
+    "id": "room-r04",
+    "file": "public/assets/integration-pilot/v2/room-r04.png",
+    "sha256": "63997877e5723a101b4525f59f86a3026f04179caec6e814fcd2fd2478389b5a",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-3ec225a7-b3d0-4748-8886-6c8e2050b538.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, no raster controls"
+  },
+  {
+    "id": "meeting",
+    "file": "public/assets/integration-pilot/v2/meeting.png",
+    "sha256": "e9508fb5de43b35a2fae2a182b23581b2242587658f7009032a3c516c03cb0e2",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-c813f36b-fe4c-4083-9cf6-968b9f7e5ca3.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, no raster controls"
+  },
+  {
+    "id": "room-r02",
+    "file": "public/assets/integration-pilot/v2/room-r02.png",
+    "sha256": "14b67b602c779699b4890fafc3bc4ab49c37a82862f7f4b0c504dcca830a954f",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-c0027983-7252-4d27-952e-c34c0b040da7.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, blank surfaces, no baked controls"
+  },
+  {
+    "id": "terminal",
+    "file": "public/assets/integration-pilot/v2/terminal.png",
+    "sha256": "a465423e19c8052c634286ae74d3f19b938c720500d8cd7020ce05d0c4273311",
+    "native": [
+      1671,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-9fce3a36-9b19-473c-8308-22e06fed5747.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, blank surfaces, no baked controls"
+  },
+  {
+    "id": "notebook",
+    "file": "public/assets/integration-pilot/v2/notebook.png",
+    "sha256": "df5e1948221d196847d667fe0be16a1515384761f0ddb7c5cedbc250e0d5b18e",
+    "native": [
+      1671,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-81f45bb5-52fa-469d-9a58-679d11017ec8.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, blank surfaces, no baked controls"
+  },
+  {
+    "id": "board",
+    "file": "public/assets/integration-pilot/v2/board.png",
+    "sha256": "bc2bc1d469a98903e35b75bca76f94218788996d67a32ffc67b72c5da11453cd",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-2e444251-2454-4fff-8ee8-b23d21403039.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, blank surfaces, no baked controls"
+  },
+  {
+    "id": "ledger",
+    "file": "public/assets/integration-pilot/v2/ledger.png",
+    "sha256": "e7b76ed9642c93e5a3642a989031f83ef24858537d418791ded22377d809ee15",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-b798aaee-5531-495f-bf31-9b47f06e013a.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: full bleed, blank surfaces, no baked controls"
+  },
+  {
+    "id": "folder",
+    "file": "public/assets/integration-pilot/v2/folder.png",
+    "sha256": "c29362e13294ce7da648643620263193a01b016faaf304c153714c42f431c21e",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-8277e229-2317-45c1-a294-ff12c39c6a41.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: blank paper, preserved object geometry, full bleed"
+  },
+  {
+    "id": "rulebook",
+    "file": "public/assets/integration-pilot/v2/rulebook.png",
+    "sha256": "f9ba9bbc5869d4baa93eda18c152ca797b864cac4620b190838baca1a33a3556",
+    "native": [
+      1672,
+      941
+    ],
+    "source": "/Users/mngduc/.codex/generated_images/01a14ea3-68fe-77f3-940d-11f8f75f13fb/exec-c637a7cf-5933-45a1-8508-4d06e99138b2.png",
+    "method": "built-in image_gen",
+    "review": "native reviewed: blank paper, preserved object geometry, full bleed"
+  }
+]

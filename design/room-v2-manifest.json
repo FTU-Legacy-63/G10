@@ -1,0 +1,848 @@
+{
+  "schema": 1,
+  "date": "2026-10-18",
+  "title": "The Credit Desk original 2D office vector family",
+  "worldFrame": {
+    "width": 1600,
+    "height": 900
+  },
+  "contract": "src/game/roomArt.ts",
+  "artBible": "design/ROOM_ART_BIBLE.md",
+  "runtimeTotals": {
+    "files": 18,
+    "sourceBytes": 34845,
+    "gzipBytes": 11476,
+    "decodedRGBAEstimateBytes": 30392800
+  },
+  "rules": {
+    "text": "All visible labels, figures, evidence, source IDs and forms are live HTML; no vector text",
+    "board": "Actual evidence cards/count/positions are dynamic. Neither board state bakes evidence cards.",
+    "selection": "Prop colors/states signal physical use, never correctness or financial flags",
+    "sources": "No financial source originals were modified",
+    "reference": "Rusty Lake games inform organization, not copied motifs or assets"
+  },
+  "assets": [
+    {
+      "file": "board-empty.svg",
+      "bytes": 1898,
+      "gzipBytes": 480,
+      "width": 910,
+      "height": 485,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 24753,
+        "transparentFraction": 0.0561,
+        "contentBounds": [
+          7,
+          6,
+          904,
+          479
+        ]
+      },
+      "sha256": "e6f7806f323a8aff2ffab851badfd45b65c1af10b4b71a8ae074b5579da2a6d5",
+      "path": "public/assets/room-v2/board-empty.svg",
+      "runtimeURL": "/assets/room-v2/board-empty.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "board",
+      "state": "empty",
+      "sceneRect": {
+        "x": 345,
+        "y": 135,
+        "width": 910,
+        "height": 485
+      },
+      "direction": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "board-used.svg",
+      "bytes": 2056,
+      "gzipBytes": 533,
+      "width": 910,
+      "height": 485,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 24753,
+        "transparentFraction": 0.0561,
+        "contentBounds": [
+          7,
+          6,
+          904,
+          479
+        ]
+      },
+      "sha256": "98b11fc68c4a2d79243d6ea3064905d1fa93c73bd706090ce80a4d76fffcf11f",
+      "path": "public/assets/room-v2/board-used.svg",
+      "runtimeURL": "/assets/room-v2/board-used.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "board",
+      "state": "used",
+      "sceneRect": {
+        "x": 345,
+        "y": 135,
+        "width": 910,
+        "height": 485
+      },
+      "direction": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "copy-carried.svg",
+      "bytes": 778,
+      "gzipBytes": 429,
+      "width": 155,
+      "height": 170,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 6176,
+        "transparentFraction": 0.2344,
+        "contentBounds": [
+          11,
+          6,
+          148,
+          165
+        ]
+      },
+      "sha256": "06552910947218a9d912e0a9366263f39b30a04c0ef0a0444d3b200e2aa6cee2",
+      "path": "public/assets/room-v2/copy-carried.svg",
+      "runtimeURL": "/assets/room-v2/copy-carried.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "copy",
+      "state": "carried",
+      "sceneRect": {
+        "x": 775,
+        "y": 630,
+        "width": 155,
+        "height": 170
+      },
+      "direction": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "copy-placed.svg",
+      "bytes": 770,
+      "gzipBytes": 422,
+      "width": 155,
+      "height": 170,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 6176,
+        "transparentFraction": 0.2344,
+        "contentBounds": [
+          11,
+          6,
+          148,
+          165
+        ]
+      },
+      "sha256": "a917e4ec0b7152ef3c2cf1c90a5d84070dd7e06343a9861d165e560af6a3dffe",
+      "path": "public/assets/room-v2/copy-placed.svg",
+      "runtimeURL": "/assets/room-v2/copy-placed.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "copy",
+      "state": "placed",
+      "sceneRect": {
+        "x": 775,
+        "y": 630,
+        "width": 155,
+        "height": 170
+      },
+      "direction": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "folder-closed.svg",
+      "bytes": 854,
+      "gzipBytes": 465,
+      "width": 380,
+      "height": 235,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 19840,
+        "transparentFraction": 0.2222,
+        "contentBounds": [
+          8,
+          24,
+          370,
+          228
+        ]
+      },
+      "sha256": "e06b121393a2db5374e6f62c739f5cff2effe6d9d94baf8ddd22f3a0cd2b7ec7",
+      "path": "public/assets/room-v2/folder-closed.svg",
+      "runtimeURL": "/assets/room-v2/folder-closed.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "folder",
+      "state": "closed",
+      "sceneRect": {
+        "x": 350,
+        "y": 585,
+        "width": 380,
+        "height": 235
+      },
+      "direction": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "folder-open.svg",
+      "bytes": 909,
+      "gzipBytes": 486,
+      "width": 380,
+      "height": 235,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 22957,
+        "transparentFraction": 0.2571,
+        "contentBounds": [
+          6,
+          24,
+          374,
+          229
+        ]
+      },
+      "sha256": "5cff4570f8c1af9cd16362365061e590fbeee94c707a2e4373711e278c333378",
+      "path": "public/assets/room-v2/folder-open.svg",
+      "runtimeURL": "/assets/room-v2/folder-open.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "folder",
+      "state": "open",
+      "sceneRect": {
+        "x": 350,
+        "y": 585,
+        "width": 380,
+        "height": 235
+      },
+      "direction": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "front-room.svg",
+      "bytes": 3552,
+      "gzipBytes": 1082,
+      "width": 1600,
+      "height": 900,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "transparentFraction": 0,
+        "contentBounds": [
+          0,
+          0,
+          1600,
+          900
+        ]
+      },
+      "sha256": "380fb1e37ac7e19bf0f02353263d961a04910b4ad605f79838f8fe1c3d3e0921",
+      "path": "public/assets/room-v2/front-room.svg",
+      "runtimeURL": "/assets/room-v2/front-room.svg",
+      "kind": "background",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "direction": 0
+    },
+    {
+      "file": "guide-closed.svg",
+      "bytes": 913,
+      "gzipBytes": 442,
+      "width": 280,
+      "height": 200,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 12529,
+        "transparentFraction": 0.2237,
+        "contentBounds": [
+          10,
+          8,
+          271,
+          192
+        ]
+      },
+      "sha256": "bd5fcffb3cbb0d0cbac4e7bf3fd7f4608423395e07037bc1df368033536abd5f",
+      "path": "public/assets/room-v2/guide-closed.svg",
+      "runtimeURL": "/assets/room-v2/guide-closed.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "guide",
+      "state": "closed",
+      "sceneRect": {
+        "x": 630,
+        "y": 620,
+        "width": 280,
+        "height": 200
+      },
+      "direction": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "guide-open.svg",
+      "bytes": 1172,
+      "gzipBytes": 484,
+      "width": 280,
+      "height": 200,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 12856,
+        "transparentFraction": 0.2296,
+        "contentBounds": [
+          6,
+          20,
+          274,
+          192
+        ]
+      },
+      "sha256": "9b9879b854f652807257f392e721a9b3ac905bcd427c42f270d8ded42a1a0321",
+      "path": "public/assets/room-v2/guide-open.svg",
+      "runtimeURL": "/assets/room-v2/guide-open.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "guide",
+      "state": "open",
+      "sceneRect": {
+        "x": 630,
+        "y": 620,
+        "width": 280,
+        "height": 200
+      },
+      "direction": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "ledger-closed.svg",
+      "bytes": 1011,
+      "gzipBytes": 490,
+      "width": 290,
+      "height": 210,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 13514,
+        "transparentFraction": 0.2219,
+        "contentBounds": [
+          10,
+          8,
+          282,
+          202
+        ]
+      },
+      "sha256": "3944c5478320452120c482292734c97b7ebfc28336b4da7f50edb7c6d8bc9c46",
+      "path": "public/assets/room-v2/ledger-closed.svg",
+      "runtimeURL": "/assets/room-v2/ledger-closed.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "ledger",
+      "state": "closed",
+      "sceneRect": {
+        "x": 1010,
+        "y": 610,
+        "width": 290,
+        "height": 210
+      },
+      "direction": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "ledger-open.svg",
+      "bytes": 1713,
+      "gzipBytes": 514,
+      "width": 290,
+      "height": 210,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 13403,
+        "transparentFraction": 0.2201,
+        "contentBounds": [
+          6,
+          20,
+          284,
+          202
+        ]
+      },
+      "sha256": "dfe216e0da20082dee22bea97bbdf8958637e7ca8ee0cb3ed77082155b4e9841",
+      "path": "public/assets/room-v2/ledger-open.svg",
+      "runtimeURL": "/assets/room-v2/ledger-open.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "ledger",
+      "state": "open",
+      "sceneRect": {
+        "x": 1010,
+        "y": 610,
+        "width": 290,
+        "height": 210
+      },
+      "direction": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "left-room.svg",
+      "bytes": 3948,
+      "gzipBytes": 1080,
+      "width": 1600,
+      "height": 900,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "transparentFraction": 0,
+        "contentBounds": [
+          0,
+          0,
+          1600,
+          900
+        ]
+      },
+      "sha256": "8330f520c529be2e583cd285c681cdccb405e43e2a90f728207749a6201a32b3",
+      "path": "public/assets/room-v2/left-room.svg",
+      "runtimeURL": "/assets/room-v2/left-room.svg",
+      "kind": "background",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "direction": 3
+    },
+    {
+      "file": "notebook-closed.svg",
+      "bytes": 1060,
+      "gzipBytes": 479,
+      "width": 250,
+      "height": 210,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 14827,
+        "transparentFraction": 0.2824,
+        "contentBounds": [
+          11,
+          13,
+          244,
+          202
+        ]
+      },
+      "sha256": "538777a5e173e531819646b5f0b8493ee9294d5b0b6b9b22bfbe533d85b7464b",
+      "path": "public/assets/room-v2/notebook-closed.svg",
+      "runtimeURL": "/assets/room-v2/notebook-closed.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "notebook",
+      "state": "closed",
+      "sceneRect": {
+        "x": 990,
+        "y": 605,
+        "width": 250,
+        "height": 210
+      },
+      "direction": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "notebook-open.svg",
+      "bytes": 1773,
+      "gzipBytes": 501,
+      "width": 250,
+      "height": 210,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 12270,
+        "transparentFraction": 0.2337,
+        "contentBounds": [
+          6,
+          21,
+          243,
+          202
+        ]
+      },
+      "sha256": "c3ad4f38cc2523e32e4483fb9ba5d7d573b6c9583de2f160fd1d54c9e6f226b7",
+      "path": "public/assets/room-v2/notebook-open.svg",
+      "runtimeURL": "/assets/room-v2/notebook-open.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "notebook",
+      "state": "open",
+      "sceneRect": {
+        "x": 990,
+        "y": 605,
+        "width": 250,
+        "height": 210
+      },
+      "direction": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "rear-room.svg",
+      "bytes": 2153,
+      "gzipBytes": 657,
+      "width": 1600,
+      "height": 900,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "transparentFraction": 0,
+        "contentBounds": [
+          0,
+          0,
+          1600,
+          900
+        ]
+      },
+      "sha256": "1f2413cbfba4d63fd47a9b06fbf4eae41915b98f1dfc0fdaa4a0b514d04189e4",
+      "path": "public/assets/room-v2/rear-room.svg",
+      "runtimeURL": "/assets/room-v2/rear-room.svg",
+      "kind": "background",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "direction": 2
+    },
+    {
+      "file": "right-room.svg",
+      "bytes": 3143,
+      "gzipBytes": 991,
+      "width": 1600,
+      "height": 900,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "transparentFraction": 0,
+        "contentBounds": [
+          0,
+          0,
+          1600,
+          900
+        ]
+      },
+      "sha256": "8f40ce8df2c9d40a73ebcd7ded0b1b94bc18fe5cc213d443c87058561d4f314d",
+      "path": "public/assets/room-v2/right-room.svg",
+      "runtimeURL": "/assets/room-v2/right-room.svg",
+      "kind": "background",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "direction": 1
+    },
+    {
+      "file": "terminal-active.svg",
+      "bytes": 3620,
+      "gzipBytes": 988,
+      "width": 470,
+      "height": 410,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 60365,
+        "transparentFraction": 0.3133,
+        "contentBounds": [
+          17,
+          8,
+          456,
+          405
+        ]
+      },
+      "sha256": "271d7b2630c0e725fa320448d971628fed38e981522e06ec230ab392dd0b8089",
+      "path": "public/assets/room-v2/terminal-active.svg",
+      "runtimeURL": "/assets/room-v2/terminal-active.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "terminal",
+      "state": "active",
+      "sceneRect": {
+        "x": 565,
+        "y": 235,
+        "width": 470,
+        "height": 410
+      },
+      "direction": 1,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    },
+    {
+      "file": "terminal-idle.svg",
+      "bytes": 3522,
+      "gzipBytes": 953,
+      "width": 470,
+      "height": 410,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 60365,
+        "transparentFraction": 0.3133,
+        "contentBounds": [
+          17,
+          8,
+          456,
+          405
+        ]
+      },
+      "sha256": "e575f216111502be06b71c66cbf8251dd7d6e3c5a8df2042906e2180577381f6",
+      "path": "public/assets/room-v2/terminal-idle.svg",
+      "runtimeURL": "/assets/room-v2/terminal-idle.svg",
+      "kind": "prop-state",
+      "provenance": {
+        "method": "Original hand-authored native SVG geometry",
+        "created": "2026-10-18",
+        "thirdPartyAssets": false,
+        "license": "Original project artwork; project distribution terms apply."
+      },
+      "filtering": "smooth non-pixel illustration",
+      "collisionRole": "none; semantic HTML action target uses exported geometry",
+      "status": "technical dimensions/alpha/provenance checks and native-scale preview passed; browser acceptance is recorded separately in implementation/QA documentation",
+      "family": "terminal",
+      "state": "idle",
+      "sceneRect": {
+        "x": 565,
+        "y": 235,
+        "width": 470,
+        "height": 410
+      },
+      "direction": 1,
+      "origin": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "stateFamilyDimensionsStable": true
+    }
+  ],
+  "inspectionOnly": {
+    "nativeCompositions": [
+      "design/point-and-click/previews/front-preview.png",
+      "design/point-and-click/previews/right-preview.png",
+      "design/point-and-click/previews/rear-preview.png",
+      "design/point-and-click/previews/left-preview.png"
+    ],
+    "vectorCompositions": [
+      "design/point-and-click/previews/front-preview.svg",
+      "design/point-and-click/previews/right-preview.svg",
+      "design/point-and-click/previews/rear-preview.svg",
+      "design/point-and-click/previews/left-preview.svg"
+    ],
+    "contactSheet": "design/point-and-click/previews/room-contact-sheet.png",
+    "runtimeFetch": false,
+    "nativeReviewed": [
+      "front and right at 1600×900",
+      "all four walls on contact sheet"
+    ],
+    "notCertified": [
+      "browser performance",
+      "runtime state animation",
+      "fresh-player usability",
+      "screen reader and cross-browser use"
+    ]
+  },
+  "archive": {
+    "formerRuntimeDirectory": "public/assets/office/",
+    "preservedAt": "design/history-2026-10-18_illustrated-room/office/",
+    "includedInRuntime": false,
+    "bytesUnchanged": true
+  }
+}
